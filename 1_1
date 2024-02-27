@@ -1,0 +1,14 @@
+n = int(101)
+var = 0
+for number in range(n):
+    var += 1
+    if var == n:
+        break
+    elif var % 3 == 0 and var % 5 == 0:
+        print(str(var) + ' - FizzBuzz')
+    elif var % 3 == 0:
+        print(str(var) + ' - Fizz')
+    elif var % 5 == 0:
+        print(str(var) + ' - Buzz')
+    else:
+        print(var)
