@@ -1,0 +1,11 @@
+a = int(input('Please type the first number: '))
+b = int(input('Please type the second number: '))
+
+while True:
+    if a == b:
+        print(a)
+        break
+    elif a > b:
+        a = a - b
+    else:
+        b = b - a
